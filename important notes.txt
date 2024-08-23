@@ -1,0 +1,14 @@
+https://www.restapitutorial.com/
+
+When someone says, “REST service,” “REST API” or “RESTful API” they more-than-likely 
+mean an HTTP or Web-based server that accepts requests over HTTP 
+and responds in human-readable JSON.
+
+REST is an acronym for “REpresentational State Transfer”
+
+curl -i 'https://itunes.apple.com/search?term=radiohead&media=music&limit=3'
+
+We can use ‘curl’ on the command-line as follows. In this case all the query-string 
+paremeters on the URL are simply telling the search API what term to search for (radiohead),
+ how many results we want returned (3), and the type of media (music)
+
